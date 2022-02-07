@@ -1,0 +1,123 @@
+.user1 .MuiAutocomplete-inputRoot[class*="MuiOutlinedInput-root"]{
+    
+    padding: 0px;
+    width: 60%;
+}
+.user1 .MuiInputLabel-outlined{
+transform: translate(15px, 10px) scale(1);
+}
+.user1{
+    margin-top: 10px;
+}
+.user1 .MuiInputLabel-root.Mui-focused{
+    
+    display: none;
+}
+
+
+.user2 .MuiAutocomplete-inputRoot[class*="MuiOutlinedInput-root"]{
+    
+    padding: 0px;
+    width: 60%;
+}
+.user2 .MuiInputLabel-outlined{
+transform: translate(15px, 10px) scale(1);
+}
+.user2{
+    margin-top: 10px;
+}
+.user2 .MuiInputLabel-root.Mui-focused{
+    
+    display: none;
+}
+
+.user3 .MuiAutocomplete-inputRoot[class*="MuiOutlinedInput-root"]{
+    
+    padding: 0px;
+    width: 60%;
+}
+.user3 .MuiInputLabel-outlined{
+transform: translate(15px, 10px) scale(1);
+}
+.user3{
+    margin-top: 10px;
+}
+.user3 .MuiInputLabel-root.Mui-focused{
+    
+    display: none;
+}
+
+
+.user4 .MuiAutocomplete-inputRoot[class*="MuiOutlinedInput-root"]{
+    
+    padding: 0px;
+    width: 60%;
+}
+.user4 .MuiInputLabel-outlined{
+transform: translate(15px, 10px) scale(1);
+}
+.user4{
+    margin-top: 10px;
+}
+.user4 .MuiInputLabel-root.Mui-focused{
+    
+    display: none;
+}
+
+.searchUserStyle{
+    border: "1px solid red";
+}
+
+.searchUserStyle .MuiInput-underline::after{
+    border:"none"
+}
+.searchUserStyle .MuiInput-underline::before{
+    border:"none"
+}
+
+
+
+.autoCompleteAddEmergency .MuiAutocomplete-inputRoot[class*="MuiOutlinedInput-root"]{
+    
+    padding: 0;
+    width: 80%;
+}
+.autoCompleteAddEmergency .MuiInputLabel-outlined{
+transform: translate(15px, 10px) scale(1);
+}
+.autoCompleteAddEmergency{
+    margin-top: 10px;
+}
+.autoCompleteAddEmergency .MuiInputLabel-root.Mui-focused{
+    
+    display: none;
+}
+
+ .autoCompleteAddEmergency .MuiAutocomplete-inputRoot[class*="MuiOutlinedInput-root"]{
+    padding: "none";
+    height: 70%;
+}
+
+.textfeildAddEmergencyname .MuiOutlinedInput-input{
+   padding: 10px 14px;
+}
+
+.textfeildAddEmergencyname .MuiInputLabel-outlined{
+    display: none;
+}
+
+.addEmergencyNameInput .MuiInputLabel-outlined.MuiInputLabel-shrink{
+transform:"none";
+}
+.addEmergencyNameInput .MuiFormLabel-root.Mui-focused{
+    color: white;
+}
+
+.addEmergencyNameInput .MuiInputLabel-animated{
+    animation: none;
+    transition: none;
+    
+}
+.user123.MuiTableCell-root{
+    padding: "0px";
+} 
