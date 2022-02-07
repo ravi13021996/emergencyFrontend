@@ -276,7 +276,7 @@ console.log(idData,"idData")
 
                             <Grid items lg={4} md={4} >
                                 <Box width={"80%"}>
-                                    <Box border={""} display={'flex'} justifyContent={'flex-start'} marginLeft={1}>Zone *</Box>
+                                    <Box border={""} display={'flex'} justifyContent={'flex-start'}>Zone *</Box>
                                     {
                                         editSiteyn?<Autocomplete
                                         className="addEmergencyNameInput"
@@ -285,8 +285,8 @@ console.log(idData,"idData")
                                         onChange={(event, newValue)=>onChangeHandleForAdmin(event, newValue)}
                                         options={top100Films}
                                         getOptionLabel={(option) => option.title}
-                                        style={{ width: 300,marginTop:"20px" }}
-                                        renderInput={(params) => <TextField {...params} label="Select Zone" variant="outlined" />}
+                                        style={{ width: 300,marginTop:"9px" }}
+                                        renderInput={(params) => <TextField {...params} placeholder="Enter Admin" margin='dense' variant="outlined" />}
                                     ></Autocomplete> :<Box border={"1px solid"} marginTop={2} borderRadius={4} padding={"5px"} style={{ backgroundColor: "#F8F8F8" }} textAlign={""} display={"flex"} justifyContent={"space-between"}><Typography>{idData ?idData.zoneId:""}</Typography><i className="fas fa-chevron-down border d-flex align-items-center"></i></Box>
                                     }
                                     
@@ -307,8 +307,8 @@ console.log(idData,"idData")
                                         onChange={(event,newValue)=>onChangeHandleForZone(event,newValue)} 
                                         options={top100Films}
                                         getOptionLabel={(option) => option.title}
-                                        style={{ width: 300,marginTop:"20px" }}
-                                        renderInput={(params) => <TextField {...params} label="Select Admin" variant="outlined" />}
+                                        style={{ width: 300,marginTop:"10px" }}
+                                        renderInput={(params) => <TextField {...params} placeholder="Enter Admin" margin='dense' variant="outlined" />}
                                         ></Autocomplete>
                                         :<Box border={"1px solid"} marginTop={2} borderRadius={4} padding={"5px"} style={{ backgroundColor: "#F8F8F8" }} textAlign={""} display={"flex"} justifyContent={"space-between"}><Typography>Select Admin</Typography><i className="fas fa-chevron-down border d-flex align-items-center"></i></Box>
                                     }
@@ -321,7 +321,7 @@ console.log(idData,"idData")
                                 <Box border={""} width={"80%"}>
                                     <Box border={""} display={'flex'} justifyContent={'flex-start'}>Phone Number *</Box>
                                     {
-                                       editSiteyn?<TextField variant="outlined" placeholder={`${idData ?idData.phobeNumber:""}`} value={emergencyAttribute.emergencyPNumber} name="emergencyPNumber" onChange={(event)=>onChangeHandle(event)} className="textfeildAddEmergencyname w-100" style={{marginTop:"20px"}}></TextField>:<Box border={"1px solid"} marginTop={2} borderRadius={4} padding={"5px"} style={{ backgroundColor: "#F8F8F8" }} textAlign={"start"}>{"96556412556"}</Box>
+                                       editSiteyn?<TextField variant="outlined" placeholder={`${idData ?idData.phoneNumber:""}`} value={emergencyAttribute.emergencyPNumber} name="emergencyPNumber" onChange={(event)=>onChangeHandle(event)} className="textfeildAddEmergencyname w-100" style={{marginTop:"20px"}}></TextField>:<Box border={"1px solid"} marginTop={2} borderRadius={4} padding={"5px"} style={{ backgroundColor: "#F8F8F8" }} textAlign={"start"}>{"96556412556"}</Box>
                                    }
                                     </Box>
                             </Grid>
